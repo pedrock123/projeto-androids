@@ -204,28 +204,26 @@ aside {
 }
 
 aside h3{
-    font-family: var(--font-destaque);
-    font-weight: normal;
-    font-size: 80px;
-    background-color: #1a2333;
-    color: var(--branco);
-    margin: 41px 0px 0px 0px;    
+        
     border-radius: 15px 15px 0px 0px;
-    padding: 3px 0px 3px 0px;
+    
 
 }
 
 
 
 div.video h3{
+    color: var(--branco);
     font-weight: normal;
     font-family: var(--font-destaque);
     background-color: #1a2333;
     border-radius: 10px 10px 0px 0px;
     text-align: center;
+    padding: 3px 0px 3px 0px;
     padding-bottom: 6px;
     padding-top: 6px;
-    font-size: 1.6em;
+    font-size: 2.4em;
+    margin: 41px 0px 0px 0px;
 }
 
 div.video p{
@@ -234,6 +232,7 @@ div.video p{
     text-align: center;
     font-size: 24px;
     padding-bottom: 10px;
+    margin: 10px;
 
 
 }
