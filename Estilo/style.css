@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+/* 
+width  = largura
+height = altura
+weight = peso
+*/
+
+/* 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*  
+ font-family: 'Bebas Neue', cursive;
+ */
+
+@font-face {
+    font-family: robota;
+    src: url(../fonts/robota/Robota-NonCommercial.otf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: shandora;
+    src: url(../fonts/shandora/Shandora\ Italic\ DEMO.ttf);
+}
+
+:root {
+    --preto: black;
+    --branco: rgb(255, 255, 255);
+    --cor1: #c3d3eb;
+    --cor2: #94afd5;
+    --cor3: #467FCC;
+    --cor4: #346099;
+    --cor4-5: #2b4f7e;
+    --cor5: #1A314D;
+    --cor6: #1a2333;
+    --cor7: #10151f;
+    --cor-fraca: #bbc9df;
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-destaque: "Bebas Neue";
+    --font-h: "robota";
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--branco);
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
+    color: var(--branco);
+    padding: 30px;
+    min-height: 150px;
+
+}
+
+header>h1 {
+    font-family: var(--font-h);
+    font-weight: normal;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452);
+
+}
+
+
+header>p {
+    font-family: var(--font-padrao);
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452);
+    line-height: 1.1em;
+    position: relative;
+
+
+
+
+}
+
+nav {
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.315);
+    padding: 10px;
+    font-family: var(--font-padrao);
+    background-color: var(--cor5);
+ 
+
+}
+
+nav >a {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0.8%;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: auto;
+
+
+}
+
+nav>a:hover {
+    text-decoration: underline;
+    background-color: var(--cor3);
+    color: var(--cor7);
+    border-radius: 10px;
+    transition-duration: 0.4s;
+
+}
+
+p {
+    font-family: var(--font-padrao);
+    font-size: 1em;
+    margin: 15px 0px 15px 0px;
+    text-indent: 24px;
+    line-height: 1.4em;
+
+
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+
+
+main {
+    min-width: 300px;
+    max-width: 800px;
+    text-align: justify;
+    padding: 20px;
+    margin: auto;
+    background-color: aliceblue;
+    color: var(--preto);
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.582);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+main h2 {
+    width: 300px;
+    font-family: var(--font-destaque);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 4px;
+    color: var(--cor6);
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    border-radius: 4px;
+}
+
+main a {
+    text-decoration: none;
+    font-family: var(--font-padrao);
+    color: var(--cor7);
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor5);
+
+}
+
+main strong {
+    color: var(--cor4-5);
+}
+
+
+aside {
+    background-color: var(--cor5);
+    height: 417px;
+    padding: 0px 10px 10px 10p;
+    color: var(--branco);
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+}
+
+aside h3{
+    font-family: var(--font-destaque);
+    font-weight: normal;
+    font-size: 30px;
+    background-color: #1a2333;
+    color: var(--branco);
+    margin: 41px 0px 0px 0px;    
+    border-radius: 15px 15px 0px 0px;
+    padding: 3px 0px 3px 0px;
+
+}
+
+
+
+div.video h3{
+    font-weight: normal;
+    font-family: var(--font-destaque);
+    background-color: #1a2333;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    font-size: 1.6em;
+}
+
+div.video p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 10px;
+
+
+}
+
+div.video iframe{
+    position: absolute;
+    top: -3.3%;
+    left: 4%;
+    width: 90%;
+    height: 72%;
+    padding: 3px 6px 6px 7px;
+    padding-top: 18%;
+}
+
+div.video{
+    margin-bottom: 14px;
+    background-color: #1A314D;
+    color: var(--branco);
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 54%;
+
+
+}
+
+
+
+
+#botao-voltar-topo {
+    background-color: var(--branco);
+}
+
+footer {
+    margin-top: 17px;
+    color: var(--branco);
+    background-color: #1a2333;
+    font-family: var(--font-padrao);
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+footer a{
+    font-weight: bolder;
+    color: rgb(139, 166, 204);
+    text-decoration: none;
+    
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

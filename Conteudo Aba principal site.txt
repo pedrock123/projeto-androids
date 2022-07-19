@@ -1,0 +1,54 @@
+Site de guia para HTML CSS e JS
+
+
+[Titulo Principal]
+
+Help on the Web
+Tudo aquilo que você sempre quis saber sobre o mundo Html, Css e Js, em um único lugar!
+
+
+
+[Menus]
+
+-Menu
+-Html
+-Css
+-javaScript
+-Fale Conosco
+
+
+[Conteudo]
+
+Subtitulo- INICIATIVA
+
+Eu Pedro Henrique Machado Corrêa venho aqui com um guia BASICO sobre HMTL5, CSS3 e JavaScript
+
+Oque é HTML?
+
+Ceriada pelo britânico Tim Berners-Lee, o acrônimo HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto.  O HTML é o componnte básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.
+
+Os hipertextos são conjuntos de elementos conectados. Esses podem ser palavras, imagens, vídeos, documento, etc. Quando conectados, formam uma rede de informações que permite a comunicação de dados, organizando conhecimentos e guardando informações.
+
+Ao visitar uma página simples na web, você pode perceber que existem diferentes distribuições e tamanhos para títulos, parágrafos, imagens, vídeos e qualquer outro elemento. Essa estrutura é estabelecida através do HTML. No inicio da web, era comum encontrar sites apenas contendo textos e imagens simples, com estrutura básica e sem estilizações. Porém, nos dias atuais, muito dificilmente você encontrará sites que possuam apenas elementos HTML. Portanto, podemos considerar o HTML o “esqueleto” da sua página.
+
+Imagine então que além do esqueleto, é necessário ter o corpo. Para isso, temos então as linguagens CSS e o JavaScript, que em conjunto com HTML, formam a base para todos os websites atuais. Veremos mais à frente o que significam essas linguagens.
+
+Oque é CSS?
+
+CSS é a sigla para o termo em inglês Cascading Style Sheets que, traduzido para o português, significa Folha de Estilo em Cascatas. O CSS é fácil de aprender e entender e é facilmente utilizado com as linguagens de marcação HTML
+
+Oque é JavaScript?
+
+Boa sorte! E bom estudos!
+
+
+[rodapé do site]
+Criador: Pedro Henrique Mchado Corrêa 
+Contato: (email)
+Telefone: (telefone)
+
+
+
+""""fim""""
+
+
