@@ -56,6 +56,7 @@ weight = peso
 body {
     background-color: var(--branco);
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+    background-position: center;
 }
 
 header {
@@ -96,20 +97,25 @@ nav {
     padding: 10px;
     font-family: var(--font-padrao);
     background-color: var(--cor5);
+    text-align: center;
+    padding-bottom: 20px;
  
 
 }
 
-nav >a {
+nav > a {
     font-weight: bold;
     font-size: 20px;
-    padding: 0.8%;
+    padding: 10px;
     color: white;
     text-decoration: none;
-    border-radius: 10px;
-    margin: auto;
+    border: 1.1px #467FCC solid;
+    border-radius: 15px;
+    background-color: #233a58;
+}
 
-
+div > a{
+    border: 0px var(--cor5) solid;
 }
 
 nav>a:hover {
@@ -118,6 +124,7 @@ nav>a:hover {
     color: var(--cor7);
     border-radius: 10px;
     transition-duration: 0.4s;
+    
 
 }
 
@@ -196,7 +203,7 @@ aside {
 aside h3{
     font-family: var(--font-destaque);
     font-weight: normal;
-    font-size: 30px;
+    font-size: 80px;
     background-color: #1a2333;
     color: var(--branco);
     margin: 41px 0px 0px 0px;    
@@ -250,11 +257,6 @@ div.video{
 }
 
 
-
-
-#botao-voltar-topo {
-    background-color: var(--branco);
-}
 
 footer {
     margin-top: 17px;
