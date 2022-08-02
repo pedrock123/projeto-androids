@@ -99,13 +99,13 @@ nav {
     background-color: var(--cor5);
     text-align: center;
     padding-bottom: 20px;
- 
+
 
 }
 
 
 
-nav > a {
+nav>a {
     font-weight: bold;
     font-size: 20px;
     padding: 10px;
@@ -117,7 +117,7 @@ nav > a {
 }
 
 
-div > a{
+div>a {
     border: 0px var(--cor5) solid;
 }
 
@@ -127,7 +127,7 @@ nav>a:hover {
     color: var(--cor7);
     border-radius: 10px;
     transition-duration: 0.4s;
-    
+
 
 }
 
@@ -203,16 +203,16 @@ aside {
     border-radius: 15px;
 }
 
-aside h3{
-        
+aside h3 {
+
     border-radius: 15px 15px 0px 0px;
-    
+
 
 }
 
 
 
-div.video h3{
+div.video h3 {
     color: var(--branco);
     font-weight: normal;
     font-family: var(--font-destaque);
@@ -226,18 +226,20 @@ div.video h3{
     margin: 41px 0px 0px 0px;
 }
 
-div.video p{
+div.video p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-align: center;
     font-size: 24px;
     padding-bottom: 10px;
     margin: 10px;
-
-
 }
 
-div.video iframe{
+iframe{
+    padding: 0px
+}
+
+div.video iframe {
     position: absolute;
     top: -3.3%;
     left: 4%;
@@ -247,15 +249,13 @@ div.video iframe{
     padding-top: 18%;
 }
 
-div.video{
+div.video {
     margin-bottom: 14px;
     background-color: #1A314D;
     color: var(--branco);
     border-radius: 10px;
     position: relative;
     padding-bottom: 54%;
-
-
 }
 
 
@@ -274,14 +274,15 @@ footer {
     padding-bottom: 13px;
 }
 
-footer a{
+footer a {
     font-weight: bolder;
     color: rgb(139, 166, 204);
     text-decoration: none;
-    
+
 
 }
 
 footer a:hover {
     text-decoration: underline;
 }
+
